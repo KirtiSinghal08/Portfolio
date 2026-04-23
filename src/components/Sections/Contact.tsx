@@ -107,8 +107,8 @@ emailjs.send(
             style={{ animationDelay: "0.1s" }}
           >
             <div className="grid sm:grid-cols-2 gap-5">
-              <Field label="Your name" name="name" placeholder="Jane Doe" error={errors.name} />
-              <Field label="Email" name="email" type="email" placeholder="jane@gmail.com" error={errors.email} />
+              <Field label="Your name" name="name" placeholder="Your name" error={errors.name} />
+              <Field label="Email" name="email" type="email" placeholder="name@company.com" error={errors.email} />
             </div>
             <Field
               label="Message"
